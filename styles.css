@@ -6,6 +6,7 @@ body{
     height: 100vh;
     overflow-y:auto;
     overflow-x: hidden;
+    perspective: 10px; /*creates a forward perspective in the x axis */ 
 }
 
 .title{
