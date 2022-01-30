@@ -19,6 +19,13 @@ header{
     z-index: -1;
 }
 
+.background, .foreground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /*creates correct aspect ratio*/ 
+}
+
 .title{
  font-size: 7rem;
   color: white;
