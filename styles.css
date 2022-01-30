@@ -24,6 +24,11 @@ header{
     height: 100%;
     width: 100%;
     object-fit: cover; /*creates correct aspect ratio*/ 
+    z-index: -1;
+}
+
+.background{
+    transform: translateZ(-10px) scale(2);
 }
 
 .title{
